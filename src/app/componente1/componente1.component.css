@@ -1,0 +1,31 @@
+form{
+  width: 25%;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+label{
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+input, textarea{
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input[type="button"]{
+color: white;
+  background: salmon;
+}
+input[type="button"]:hover{
+  background: red;
+  cursor: pointer;
+}
+#incorrecto{
+  color: red;
+}
+#mostrar{
+  color: red;
+}
